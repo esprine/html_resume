@@ -1,0 +1,93 @@
+@charset "UTF-8";
+div#header {
+    margin-top:60px;
+    margin-left:60px;
+    height:240px;
+    border-bottom: 3px solid #A9D0F5;
+}
+div#photo {
+    display:inline-block;
+    text-align:center;
+}
+div#context {
+    margin-left:20px;
+    display:inline-block;
+    line-height:30px;
+    text-align:left;
+    font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+    font-size:18px;
+}
+div#contents {
+    margin-left:260px;
+}
+div.content {
+	margin-left:100px;	
+}
+div#introduce {
+    line-height:40px;
+    height:220px;
+}
+div#skill {
+    height:370px;
+}
+div#projects {
+	line-height:40px;
+    height:300px;
+    margin-bottom: 100px;
+}
+div#experience {
+    line-height:40px;
+    height:270px;
+}
+div#education {
+    line-height:40px;
+    height:270px;
+}
+.header {
+    font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+    font-size:30px;
+    font-weight: bold;
+}
+.subheader {
+    margin-bottom:15px;
+}
+.title {
+    font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+    font-size:24px;
+    font-weight: bold;
+}
+.subtitle {
+    font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+    font-size:22px;
+    font-weight: bold;
+    margin-left:10px;
+}
+.img {
+    margin-right:10px;
+}
+.contents {
+    font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+    font-size:18px;
+    margin-left:10px;
+}
+li.horizontal {
+    margin-left: 40px;
+    float: left;
+}
+li.vertical {
+    margin-bottom:20px;
+}
+ul.font {
+    font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+    font-size:18px;
+}
+
+table#edu_table {
+	width: 50%;
+	border: 1px solid #444444;
+	border-collapse: collapse;
+}
+
+#edu_table tr td {
+	border: 1px solid #444444;
+}
