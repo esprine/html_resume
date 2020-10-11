@@ -2,7 +2,7 @@ var page = 0;
 	var projects = "<div id=\"projects\" class=\"content\">" +
 			"<p class=\"title\">프로젝트</p>" +
 			"<p class=\"subtitle\">여행 계획 작성 모바일 어플리케이션</p>" +
-			"<p class=\"contents\"></p>" +
+			"<p class=\"contents\">내용</p>" +
 			"<p class=\"subtitle\">설문조사 웹사이트</p>" +
 			"<p class=\"contents\">내용</p>" +
 			"<p class=\"subtitle\">도서관 이용 및 관리 프로그램</p>" +
