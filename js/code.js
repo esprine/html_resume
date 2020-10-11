@@ -33,7 +33,7 @@
 					"<td>2020.05 ~ 2020. 11</td><td>한국능력개발교육원 JAVA컨버전스 과정</td><td>수료</td>" +
 					"</tr>" +
 					"</table>" +
-					"</div>";
+				"</div>";
 	
 	
 	var pageArr = Array(projects, education);
