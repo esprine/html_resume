@@ -83,6 +83,16 @@ ul.font {
     font-size:18px;
 }
 
+.project_table tr {
+	margin-bottom: 50px;
+}
+
+.project_contents {
+	margin-left: 20px;
+	font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
+    	font-size:18px;
+}
+
 table#edu_table {
 	width: 50%;
 	border: 1px solid #444444;
@@ -91,10 +101,4 @@ table#edu_table {
 
 #edu_table tr td {
 	border: 1px solid #444444;
-}
-.project_contents {
-	margin-left: 20px;
-	font-family: "나눔고딕", NanumGothic, "돋움", dotum, "굴림", gulim, arial, helvetica, sans-serif;
-    	font-size:18px;
-	margin-bottom: 100px;
 }
