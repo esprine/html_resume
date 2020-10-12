@@ -97,16 +97,16 @@ var page = 0;
 		$('#intro').load("div/intro.html");
 		$('#skill').load("div/skill.html");
 		
-		drawChart1();
-		drawChart2();
-		drawChart3();
-		
 		while ($("body").height() < $(window).height()) {
 	        $("#enters").append(pageArr[page]);
 			page++;
 	    }
 	});
 	
+	drawChart1();
+	drawChart2();
+	drawChart3();
+
 	$(window).scroll(function() {
 		if ($(window).scrollTop() == $(document).height() - $(window).height()) {
 			$("#enters").append(pageArr[page]);
