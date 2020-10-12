@@ -8,7 +8,7 @@ var page = 0;
 			"<p class=\"subtitle\">도서관 이용 및 관리 프로그램</p>" +
 	    		"<table>" +
 	    		"<tr>" +
-	    		"<td><img src=\"./img/lib_project.png\"></td>"
+	    		"<td><img src=\"https://raw.githubusercontent.com/esprine/html_resume/issue1/img/lib_project.png"></td>"
 			"<td><p class=\"contents\">java swing및 Oracle DB를 이용하여 <br> 도서관 대출 및 반납, 도서관에서 시행하는 문화강좌 등에 대한 수강 및 현황조회 등을 할 수 있는 프로그램을 개발하였습니다.<br>" +
 			"해당 프로그램의 개발을 통해 프로그램 개발에 대한 UI구조 숙지 및<br> DB 테이블 설계 및 작성에서 오는 제약조건과 쿼리문에 대해 이해할 수 있었습니다.</p></td>" +
 	    		"</tr>" +
