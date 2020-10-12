@@ -50,8 +50,8 @@ var page = 0;
 	});
 
 	google.load("visualization", "1", {packages:["corechart"]});
-	google.setOnLoadCallback(drawChart1);
-	function drawChart1() { 
+	google.setOnLoadCallback(drawChart);
+	function drawChart() { 
 		var data1 = google.visualization.arrayToDataTable( 
 				[
 					["Programming","Rating"],["Java",100],["JavaScript",70],["Python",40],["Other",30]
@@ -65,11 +65,7 @@ var page = 0;
 		var chart1 = new google.visualization.PieChart(
 				document.getElementById("language_skill_chart"));
 		chart1.draw(data1, options1);
-	}
-	
-	google.load("visualization", "1", {packages:["corechart"]});
-	google.setOnLoadCallback(drawChart2);
-	function drawChart2() { 
+
 		var data2 = google.visualization.arrayToDataTable( 
 				[
 					["Database","Rating"],["Oracle",100],["MySQL",70],["MariaDB",40],["MS-SQL",30],["Other", 20]
@@ -83,11 +79,7 @@ var page = 0;
 		var chart2 = new google.visualization.PieChart(
 				document.getElementById("database_skill_chart"));
 		chart2.draw(data2, options2);
-	}
-	
-	google.load("visualization", "1", {packages:["corechart"]});
-	google.setOnLoadCallback(drawChart3);
-	function drawChart3() { 
+
 		var data3 = google.visualization.arrayToDataTable( 
 				[
 					["Framework","Rating"],["Spring",100],["Vue.js",80],["node.js",50],["Django",20]
