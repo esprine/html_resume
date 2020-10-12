@@ -6,7 +6,7 @@ var page = 0;
 			"<p class=\"subtitle\">설문조사 웹사이트</p>" +
 			"<p class=\"contents\">내용</p>" +
 			"<p class=\"subtitle\">도서관 이용 및 관리 프로그램</p>" +
-	    		"<table>" +
+	    		"<table class=\"project_table\">" +
 	    		"<tr>" +
 	    		"<td><img src=\"https://raw.githubusercontent.com/esprine/html_resume/issue1/img/lib_project.png\"></td>" +
 			"<td><p class=\"project_contents\">java swing및 Oracle DB를 이용하여 <br> 도서관 대출 및 반납, 도서관에서 시행하는 문화강좌 등에 대한 수강 및 현황조회 등을 할 수 있는 프로그램을 개발하였습니다.<br>" +
