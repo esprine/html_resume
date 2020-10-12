@@ -6,12 +6,13 @@ var page = 0;
 			"<p class=\"subtitle\">설문조사 웹사이트</p>" +
 			"<p class=\"contents\">내용</p>" +
 			"<p class=\"subtitle\">도서관 이용 및 관리 프로그램</p>" +
-			"<p class=\"contents\">java swing및 Oracle DB를 이용하여 <br> 도서관 대출 및 반납, 도서관에서 시행하는 문화강좌 등에 대한 수강 및 현황조회 등을 할 수 있는 프로그램을 개발하였습니다.<br>" +
-			"해당 프로그램의 개발을 통해 프로그램 개발에 대한 UI구조 숙지 및<br> DB 테이블 설계 및 작성에서 오는 제약조건과 쿼리문에 대해 이해할 수 있었습니다.</p>" +
-			"<p class=\"subtitle\">게임 커뮤니티 웹사이트</p>" +
-			"<p class=\"contents\">내용</p>" +
-			"<p class=\"subtitle\">여행 계획 작성 웹사이트</p>" +
-			"<p class=\"contents\">내용</p>" +
+	    		"<table>" +
+	    		"<tr>" +
+	    		"<td><img src="./img/lib_project.png"></td>"
+			"<td><p class=\"contents\">java swing및 Oracle DB를 이용하여 <br> 도서관 대출 및 반납, 도서관에서 시행하는 문화강좌 등에 대한 수강 및 현황조회 등을 할 수 있는 프로그램을 개발하였습니다.<br>" +
+			"해당 프로그램의 개발을 통해 프로그램 개발에 대한 UI구조 숙지 및<br> DB 테이블 설계 및 작성에서 오는 제약조건과 쿼리문에 대해 이해할 수 있었습니다.</p></td>" +
+	    		"</tr>" +
+	    		"</table>" +
 			"</div>";
 	
 	var education = "<div id=\"education\" class=\"content\">" +
