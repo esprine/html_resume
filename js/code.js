@@ -97,6 +97,10 @@ var page = 0;
 		$('#intro').load("div/intro.html");
 		$('#skill').load("div/skill.html");
 		
+		drawChart1();
+		drawChart2();
+		drawChart3();
+		
 		while ($("body").height() < $(window).height()) {
 	        $("#enters").append(pageArr[page]);
 			page++;
