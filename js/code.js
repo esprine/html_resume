@@ -38,6 +38,17 @@ var page = 0;
 	
 	var pageArr = Array(projects, education);
 	
+	$(document).ready(function(){
+		$('#header').load("div/header.html");
+		$('#intro').load("div/intro.html");
+		$('#skill').load("div/skill.html");
+		
+		while ($("body").height() < $(window).height()) {
+	        $("#enters").append(pageArr[page]);
+			page++;
+	    }
+	});
+
 	google.load("visualization", "1", {packages:["corechart"]});
 	google.setOnLoadCallback(drawChart1);
 	function drawChart1() { 
@@ -91,21 +102,6 @@ var page = 0;
 				document.getElementById("framework_skill_chart"));
 		chart3.draw(data3, options3);
 	}
-	
-	$(document).ready(function(){
-		$('#header').load("div/header.html");
-		$('#intro').load("div/intro.html");
-		$('#skill').load("div/skill.html");
-		
-		while ($("body").height() < $(window).height()) {
-	        $("#enters").append(pageArr[page]);
-			page++;
-	    }
-	});
-	
-	drawChart1();
-	drawChart2();
-	drawChart3();
 
 	$(window).scroll(function() {
 		if ($(window).scrollTop() == $(document).height() - $(window).height()) {
