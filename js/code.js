@@ -41,7 +41,7 @@ var page = 0;
 	$(document).ready(function(){
 		$('#header').load("div/header.html");
 		$('#intro').load("div/intro.html");
-		$('#skill').load("div/skill.html");
+		//$('#skill').load("div/skill.html");
 		
 		while ($("body").height() < $(window).height()) {
 	        $("#enters").append(pageArr[page]);
